@@ -54,7 +54,7 @@ gulp web-component --tag <tag> --d <directory>
 ```
 
 
-## Scaffold tasks, ellipticaljs es6/7 MVC app(optional)
+## Scaffold tasks
 
 ```bash
 
