@@ -1,0 +1,30 @@
+{
+  "name": "page-starter-app",
+  "description": "web component-based page content management front-end",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "authors": [
+    "Scott <sfrancis@misinteractive.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "prototype",
+    "polymer",
+    "page content management",
+    "web components"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/ellipticaljs/page-starter-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ui-components": "~1.2.0",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.7",
+    "page-app":"~1.0.1"
+  }
+}

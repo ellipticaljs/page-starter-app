@@ -1,0 +1,10 @@
+
+@mixin _gallery-editor(){
+
+}
+
+@mixin gallery-editor(){
+  gallery-editor{
+    @include _gallery-editor();
+  }
+}

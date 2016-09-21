@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <title>Sample Standalone Page</title>
+  <script src="components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="elements/app-footer/app-footer.html" id="footer-doc">
+  <link rel="import" href="imports/import.html">
+  <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+<ui-container class="ui-sticky-footer">
+  <paper-toast></paper-toast>
+  <page-content disable-history="true" disable-page-mode="true" page-id="static-page" page-title="Static Page" data-bind-components="true"></page-content>
+  <app-header link-root="/index.html#/Page/Index"></app-header>
+  <main>
+    <grid-row>
+      <grid-columns class="default-12">
+        <content-header data-id="title" data-property="title" content-component class="hidden">Static Page Header</content-header>
+        <blockquote class="warning" style="border-radius:3px;">Example of sample static page or an arbitrary MVC action where you can embed content components directly
+        into the page or view to allow for partial content management editing. These "partial pages" will not show in the menu nor in the toolbar pages dialog.
+        </blockquote>
+        <p>&nbsp;</p>
+        <content-editor data-id="body" data-property="body" content-component class="hidden">Sample placeholder editor content</content-editor>
+      </grid-columns>
+    </grid-row>
+  </main>
+  <footer data-role="footer" class="margin-top-auto"></footer>
+</ui-container>
+<script src="scripts/footer.js"></script>
+</body>

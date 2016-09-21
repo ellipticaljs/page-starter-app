@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <title>Elliptical Page</title>
+  <script src="components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="elements/app-footer/app-footer.html" id="footer-doc">
+  <link rel="import" href="imports/import.html">
+  <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+<ui-container class="ui-sticky-footer">
+  <paper-toast></paper-toast>
+  <page-content></page-content>
+  <app-header></app-header>
+  <main>
+    <grid-row>
+      <grid-columns class="default-12">
+        <div content-placeholder>
+
+        </div>
+      </grid-columns>
+    </grid-row>
+  </main>
+  <footer data-role="footer" class="margin-top-auto"></footer>
+</ui-container>
+<script src="scripts/footer.js"></script>
+</body>

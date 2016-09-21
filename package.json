@@ -1,0 +1,43 @@
+{
+  "name": "page-starter-app",
+  "version": "1.0.0",
+  "description": "web component-based page content management front-end starter app",
+  "main": "./public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "author": "S.Francis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ellipticaljs/page-starter-app.git"
+  },
+  "dependencies": {
+    "elliptical-sass": "git+https://github.com/ellipticaljs/sass.git",
+    "sass-md-components": "git+https://github.com/ellipticaljs/sass-md-components.git",
+    "sass-ubuntu": "git+https://github.com/ellipticaljs/sass-ubuntu.git",
+    "elliptical-page":"git+https://github.com/ellipticaljs/page.git"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "elliptical-gulp": "git+https://github.com/ellipticaljs/gulp.git",
+    "elliptical-scaffold": "git+https://github.com/ellipticaljs/scaffold.git",
+    "gulp": "^3.8.7",
+    "minimist": "^1.2.0",
+    "eslint": "^3.0.1",
+    "babel-eslint": "^6.1.2",
+    "core-js": "^2.4.1",
+    "clone": "^1.0.2",
+    "parse5": "^2.2.1",
+    "lodash": "^4.15.0"
+  }
+}
