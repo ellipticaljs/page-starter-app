@@ -25,6 +25,7 @@
   "dependencies": {
     "ui-components": "~1.2.0",
     "paper-elements": "PolymerElements/paper-elements#~1.0.7",
+    "md-more":"~1.2.2",
     "page-app":"~1.0.1"
   }
 }

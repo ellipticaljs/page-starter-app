@@ -1,6 +1,6 @@
 {
   "name": "page-starter-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web component-based page content management front-end starter app",
   "main": "./public/index.html",
   "scripts": {
