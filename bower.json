@@ -1,7 +1,7 @@
 {
   "name": "page-starter-app",
   "description": "web component-based page content management front-end",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "public/index.html",
   "authors": [
     "Scott <sfrancis@misinteractive.com>"
